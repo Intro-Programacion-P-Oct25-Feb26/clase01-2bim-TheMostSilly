@@ -13,12 +13,12 @@ public class Ejercicio01 {
         // Inicio el ciclo for donde i vale 30 y decrece hasta 10
         for (int i = 30; i >= 10; i--) {
         
-            int numero1 = i;
+            int num = i;
             int numero2 = i * 2;
             int numero3 = i * 3;
             int numero4 = i * 4;
         
-            columna1 = columna1 + numero1;
+            columna1 = columna1 + num;
             columna2 = columna2 + numero2;
             columna3 = columna3 + numero3;
             columna4 = columna4 + numero4;
@@ -26,7 +26,7 @@ public class Ejercicio01 {
         // Usando String.format
             mensaje = String.format("%s%d-%d-%d-%d\n",
                     mensaje,
-                    numero1,
+                    num,
                     numero2,
                     numero3,
                     numero4);
